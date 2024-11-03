@@ -1,0 +1,18 @@
+[package]
+name = "pyjsmath"
+version = "0.2.1"
+edition = "2021"
+description = "Fast math for python written in rust."
+authors = ["anamoyee"]
+repository = "https://github.com/anamoyee/pyjsmath"
+readme = "README.md"
+license = "GPL-3.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pyjsmath"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.22.0"
